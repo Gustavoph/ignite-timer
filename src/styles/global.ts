@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   :focus {
     outline: 0;
     box-shadow: 0 0 0 2px ${({ theme }) => theme['green-500']};
+    -webkit-font-smoothing: antialiased;
   }
 
   body {
